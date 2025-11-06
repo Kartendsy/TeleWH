@@ -1,13 +1,16 @@
 {
-  "name": "TeleWH",
+  "name": "telegram-bot-vercel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Telegram bot webhook deployed on Vercel",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "vercel dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.17.0"
+  "keywords": ["telegram", "bot", "vercel", "webhook"],
+  "author": "Sang Dewa Kehancuran",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
